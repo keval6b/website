@@ -1,4 +1,4 @@
-module github.com/yottapanda/website
+module github.com/keval6b/website
 
 go 1.24.4
 

@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "YottaPanda"
+title = "Keval Kapdee"
 
 [params]
   displayName = "EN"
@@ -17,7 +17,7 @@ title = "YottaPanda"
 [params.author]
   name = "Keval Kapdee"
   image = "img/icon.png"
-  headline = "yottapanda"
+  headline = "keval6b"
   bio = "A man? A panda? Anybody's guess. But a tech nerd? No doubt."
   links = [
   #   { email = "mailto:hello@your_domain.com" },
@@ -32,7 +32,7 @@ title = "YottaPanda"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-    { github = "https://github.com/yottapanda" },
+    { github = "https://github.com/keval6b" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { hashnode = "https://username.hashnode.dev" },
