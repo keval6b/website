@@ -58,7 +58,7 @@ Since the Spotify API is kinda slow, I might switch the simple post request to a
 
 ## Links
 
-For those who want to see all the nitty-gritty details, the source code is freely available [here](https://github.com/yottapanda/syncify).
+For those who want to see all the nitty-gritty details, the source code is freely available [here](https://github.com/keval6b/syncify).
 
 Unfortunately as of writing this post, Spotify has not gotten around to approving the tool for public use. When the time comes though, it's hosted and ready to go: [Syncify](https://syncify.yottapanda.com).
 
