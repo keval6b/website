@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: just build
+        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-artifact@v7
@@ -56,4 +56,6 @@ jobs:
           aws-region: ${{ vars.AWS_REGION }}
 
       - name: Deploy
-        run: just deploy
+        run: |
+          aws s3 sync --delete public s3://661355305324-website
+          aws cloudfront create-invalidation --distribution-id EX9M163DAY7S0 --paths "/*" --no-cli-pager
